@@ -6,4 +6,8 @@ This is just a sample srm academia webpage.
 
 ![Real Image](srm_real.png)
 
+# Webpage Created
+
+![Created Image](srm_made.png)
+
 
