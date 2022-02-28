@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header-comp{
+  background-color: #123670;
+}
+
+
+.comp1{
+  width: 252px; 
+  float:left; 
+  height:53px; 
+  background:#008ae6; 
+  position: relative;
+  
+}
+.comp2{
+  width: 1267px; 
+  float:right; 
+  height:53px; 
+  background:#0099ff;
+
+}
+
+.head{
+  overflow: hidden;
+  cursor: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.name{
+  display:flex;
+  padding-left: 1160px;
+  color: white;
+  position: inline;
+}
+.academia{
+  color: white;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  padding: 0px 22px 10px 22px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.centr{
+  padding-top: 0px;
+}
+
+.img1
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.new2
+{
+  padding-top: 10px;
+  font-size: 14px;
+}
+.menu{
+    height: 900px;
+    width: 252px;
+    background-color: white;
+    display: inline-block;
+    box-shadow:10px 10px 5px 12px lightblue;
+}
+.main{
+  display: inline-block;
+  font-size: 14px;
+ top: 0px;
+  height: 900px;
+  width: 1260px;
+  margin-top: 53px;
+  background-color:#E9ECF2;
+  position: absolute;
+  
+  font-family: "Lato",sans-serif;
+    font-weight: 400;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.para1{
+  color: red;
+}
+
+.para2
+{
+  color: blue;
+}
+
+.para3{
+  background-color:#0099ff;
+  color: white;
+  
+  font-family: "Lato",sans-serif;
+    font-weight: 400;
+}
+
+.highlight
+{
+  background-color: blue;
+  font-family: "Lato",sans-serif;
+    font-weight: 400;
+}
+
+.new
+{
+  text-overflow: ellipsis;
+  padding: 8px 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+p.big {
+  line-height: 175%;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 20px;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  font-family: Tw Cen MT;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
